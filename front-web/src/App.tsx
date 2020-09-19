@@ -1,12 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './componets/Header'
+import Header from './componets/Header';
+import Home from './pages/Home';
+
 
 function App() {
   return (
      <div>
        <Header></Header>
+       <Home></Home>
      </div>
   );
 }
